@@ -1,0 +1,24 @@
+{
+  "name": "bg_ide_setup",
+  "version": "1.0.0",
+  "description": "IDE setup to prepare for an interview",
+  "main": "sample.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcnguyen/bg_ide_setup.git"
+  },
+  "author": "Minhtam Nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mcnguyen/bg_ide_setup/issues"
+  },
+  "homepage": "https://github.com/mcnguyen/bg_ide_setup#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1"
+  }
+}
