@@ -46,11 +46,11 @@ function prioritize(blockPriorities) {
     let leftValue = blockPriorities[left];
     let rightValue = blockPriorities[right];
     if (Math.abs(leftValue) < rightValue) {
-      // result.unshift(leftValue); // not O(1) but DESC order
+      // result.unshift(leftValue); // O(n) and DESC order
       result.push(leftValue);  // O(1) and ASC order
       left--;
     } else {
-      // result.unshift(rightValue); // not O(1) but DESC order
+      // result.unshift(rightValue); // O(n) and DESC order
       result.push(rightValue); // O(1) and ASC order
       right++;
     }
